@@ -1,0 +1,33 @@
+#content-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 20px;
+
+}
+
+#content-container a {
+    text-decoration: none;
+
+}
+
+#content-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#content-container .left-side {
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+
+#content-container .right-side {
+    width: 70%;
+    display: inline-block;
+    float: left;
+}
+
+#content-container .right-side img {
+    width: 100%;
+}
